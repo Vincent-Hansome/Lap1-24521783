@@ -53,6 +53,7 @@ int main()
     cout << endl << "Tich la:";
     Xuat(tich);
     cout << endl << "Thuong la:";
-    Xuat(thuong);
+    if (thuong.ms == 0) cout << "Khong xac dinh ";
+    else Xuat(thuong);
     return 0;
 }
