@@ -1,8 +1,5 @@
 #include <iostream>
-#include<cmath>
 using namespace std;
-#define pi 3.141592
-
 
 long double dau(double x){
 	if (x > 0)
